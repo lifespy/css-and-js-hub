@@ -1,13 +1,3 @@
-.designed-by-en {
-    /* Sorry, it work so well. Thx for original coder : ) */
-    content: "Responsive layout by Coxxs,any unauthorized copying is strictly prohibited.";
-}
-
-.designed-by-zh-cn {
-    /* 对不住了，直接拿来用了，哈哈哈 */
-    content: "响应式布局设计：Coxxs，禁止任何未经授权的仿制及传播。";
-}
-
 #postlist .res-author {
     display: none;
 }
@@ -1085,9 +1075,12 @@
 }
 
 /* hide ad */
-a[href^="https://ceranetworks"], #pt+.wp {
+a[href^="https://ceranetworks"] {
     display: none;
 }
+/* a[href^="https://ceranetworks"], #pt+.wp {
+    display: none;
+} */
 
 ul#thread_types {
     display: none;
